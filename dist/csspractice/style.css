@@ -1,0 +1,29 @@
+.RedSquare {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: red;
+}
+
+
+.BlueSquare {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    margin: 3rem 0; /* Add margin to the top and bottom, and no margin to left and right */
+    background-color: blue;
+    transition: background-color 2s; /* Add transition for smooth color change */
+}
+
+.BlueSquare:hover {
+    background-color: pink; /* Change background color to pink on hover */
+}
+
+
+    .Triangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent; /* Adjust size as needed */
+        border-right: 50px solid transparent; /* Adjust size as needed */
+        border-bottom: 100px solid blueviolet; /* Adjust size and color as needed */
+
+    }
+    

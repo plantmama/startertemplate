@@ -1,0 +1,1 @@
+Hey This is a starter template simple and basic to get started for web sites.
