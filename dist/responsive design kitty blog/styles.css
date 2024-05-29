@@ -1,0 +1,52 @@
+/* Default hidden styles for both elements */
+#mobile, #laptop {
+    display: none;
+  }
+  
+  /* Mobile styles */
+  @media only screen and (max-width: 767px) {
+    #mobile {
+      display: block;
+    }
+  }
+  
+  /* Desktop styles */
+  @media only screen and (min-width: 768px) {
+    #laptop {
+      display: block;
+    }
+  }
+
+  .title {
+    color:brown
+  }
+
+  body {
+    background-color:burlywood
+  }
+
+header {
+  width: 100%;
+  height: 2.18rem;
+}
+
+.kittyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: darkgrey;
+}
+footer {
+  width: 100%;
+  height: 4.36rem;
+  background-color: darkgoldenrod;
+}
+
+.container {
+  display:flex; /* MAKES EVERY TAG THEIR OWN BLOCK */
+  flex-direction: column; /* HAS BLOCKS GOING VERTICAL -COLUMN OR ROW- */
+  justify-content: flex-start; /* CONTENT STARTS AT BOTTOM (FLEX) OR CENTER (CENTER) -STARTS VERY TOP OF CONTAINER WORKS DOWNWARD (MOBILE APPROACH) FLEX-END TO START AT BOTTOM */
+  align-items: center; /* HORIZONTAL (FLEX-START STARTS AT LEFT / BEGINING)  */
+  height: 100vh;
+  width: 70%;
+}
